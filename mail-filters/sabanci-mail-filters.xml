@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:z0000001633262274225*5079215778633247317,z0000001649338678158*5853768701624184537,z0000001649421819026*3306788201104098053,z0000001651235253979*3615560327581843815,z0000001651235333708*4230552438597728027,z0000001654855495522*1888743796797271112,z0000001665484870252*8613680685446466763,z0000001665484898557*6356341857557129574,z0000001669127452538*8729405884841133162,z0000001669191349853*7131852580101454753,z0000001701764953897*0848270702496531369,z0000001701765076376*7095910132040056152,z0000001701765183175*0416545891057040223,z0000001701765269646*6076675211511035094,z0000001701765407261*5141168730730565756</id>
+	<updated>2023-12-05T08:43:00Z</updated>
+	<author>
+		<name>Akif Işıtan (Student)</name>
+		<email>akifisitan@sabanciuniv.edu</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001633262274225*5079215778633247317</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='list:(&lt;gazetesu1.lists.sabanciuniv.edu&gt;)'/>
+		<apps:property name='label' value='Useless/GazeteSU'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001649338678158*5853768701624184537</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='mdbf-dekanlikofisi@sabanciuniv.edu'/>
+		<apps:property name='label' value='Useless/FENS Deans Office'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001649421819026*3306788201104098053</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='sabanciaward@sabanciuniv.edu'/>
+		<apps:property name='label' value='Useless/FENS Deans Office'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001651235253979*3615560327581843815</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='survey@yondes.com'/>
+		<apps:property name='label' value='Useless/Yöndes'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001651235333708*4230552438597728027</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='pure@sabanciuniv.edu'/>
+		<apps:property name='label' value='Useless/PURE'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001654855495522*1888743796797271112</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='writingfellow@sabanciuniv.edu'/>
+		<apps:property name='label' value='Useless/Peer Writing Fellows'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001665484870252*8613680685446466763</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='list:(&lt;sufokmembers.lists.sabanciuniv.edu&gt;)'/>
+		<apps:property name='label' value='Useless/Clubs'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001665484898557*6356341857557129574</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='list:(&lt;computer-club.lists.sabanciuniv.edu&gt;)'/>
+		<apps:property name='label' value='Useless/Clubs'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001669127452538*8729405884841133162</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='tmpmbox01@sabanciuniv.edu'/>
+		<apps:property name='label' value='ImportantStuff/SU Mailbox'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001669191349853*7131852580101454753</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='list:(&lt;dorm-a4.lists.sabanciuniv.edu&gt;)'/>
+		<apps:property name='label' value='ImportantStuff/Dormitory'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001701764953897*0848270702496531369</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='sgm@sabanciuniv.edu'/>
+		<apps:property name='label' value='Useless/SGM'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001701765076376*7095910132040056152</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='ac@sabanciuniv.edu'/>
+		<apps:property name='label' value='Career/AC'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001701765183175*0416545891057040223</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='intern@sabanciuniv.edu'/>
+		<apps:property name='label' value='Career/Internship'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001701765269646*6076675211511035094</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='career@sabanciuniv.edu'/>
+		<apps:property name='label' value='Career'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001701765407261*5141168730730565756</id>
+		<updated>2023-12-05T08:43:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='yurtlar@sabanciuniv.edu'/>
+		<apps:property name='label' value='ImportantStuff/Dormitory'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>

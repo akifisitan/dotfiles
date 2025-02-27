@@ -1,0 +1,119 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "security.workspace.trust.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "symbols",
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#fff"
+  },
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "git.ignoreLegacyWarning": true,
+  "terminal.integrated.env.windows": {},
+  "editor.unicodeHighlight.includeStrings": false,
+  "eslint.codeActionsOnSave.rules": null,
+  "git.confirmSync": false,
+  "editor.fontFamily": "'Fragment Mono', 'Geist Mono', 'CommitMono-1p300', 'Jetbrains Mono'",
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.lineHeight": 1.4,
+  "symbols.hidesExplorerArrows": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.list.smoothScrolling": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.tokenColorCustomizations": {
+    "[GitHub Dark]": {
+      "textMateRules": [
+        {
+          "scope": "entity.name.tag",
+          "settings": {
+            "foreground": "#2dc494"
+          }
+        }
+      ]
+    }
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "playwright.reuseBrowser": true,
+  "explorer.confirmPasteNative": false,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.tabSize": 4,
+    "editor.indentSize": 4
+  },
+  "editor.lightbulb.enabled": "off",
+  "editor.linkedEditing": true,
+  "C_Cpp.default.cppStandard": "c++20",
+  "[cpp][c]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false
+  },
+  "[nginx]": {
+    "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf"
+  },
+  "javascript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.autoComplete.extraPaths": ["${workspaceFolder}/Scripts"],
+  "python.analysis.extraPaths": ["${workspaceFolder}/Scripts"],
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.autoIndent": true,
+  "python.analysis.indexing": true,
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.experiments.enabled": false,
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.indentSize": 4,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "workbench.colorTheme": "poimandres-noitalics",
+  "editor.detectIndentation": false,
+  "window.newWindowDimensions": "maximized",
+  "git.openRepositoryInParentFolders": "always",
+  "chat.commandCenter.enabled": false,
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "powershell.codeFormatting.useCorrectCasing": true,
+  "powershell.codeFormatting.useConstantStrings": true,
+  "powershell.integratedConsole.showOnStartup": false,
+  "powershell.promptToUpdatePowerShell": false,
+  "typescript.preferences.importModuleSpecifierEnding": "js",
+  "javascript.preferences.importModuleSpecifierEnding": "js"
+}
