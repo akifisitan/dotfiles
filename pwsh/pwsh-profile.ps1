@@ -1,3 +1,7 @@
+# Dot source in profile with notepad $profile
+# . path\to\pwsh-profile.ps1
+
+# Inject environment variables
 $env:PYTHONDONTWRITEBYTECODE="1"
 
 # Alias
@@ -10,7 +14,7 @@ function Prompt {
     $location = Get-Location
     if ($location.Path -eq "C:\") {
       $lastDir = "/"
-    } elseif ($location.Path -eq "C:\Users\user") {
+    } elseif ($location.Path -eq "$HOME") {
       $lastDir = "~" # good enough for now
     } else {
       $lastDir = Split-Path $location -Leaf
