@@ -9,11 +9,16 @@
   "workbench.tree.indent": 15,
   "workbench.tree.renderIndentGuides": "always",
   "workbench.colorCustomizations": {
-    "tree.indentGuidesStroke": "#fff"
+    "tree.indentGuidesStroke": "#fff",
+    "editorBracketHighlight.foreground1": "#818cf8",
+    "editorBracketHighlight.foreground2": "#f59e0b",
+    "editorBracketHighlight.foreground3": "#fda4af",
+    "editorBracketHighlight.foreground4": "#38bdf8",
+    "editorBracketHighlight.foreground5": "#818cf8",
+    "editorBracketHighlight.foreground6": "#fda4af"
   },
   "explorer.compactFolders": false,
   "workbench.editor.labelFormat": "short",
-  "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
   "editor.indentSize": "tabSize",
@@ -56,9 +61,6 @@
   },
   "svelte.enable-ts-plugin": true,
   "svelte.plugin.svelte.defaultScriptLanguage": "ts",
-  "emmet.includeLanguages": {
-    "postcss": "css"
-  },
   "files.associations": {
     "*.css": "postcss"
   },
@@ -66,18 +68,15 @@
   "explorer.confirmPasteNative": false,
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp",
-    "editor.tabSize": 4,
-    "editor.indentSize": 4
+    "editor.tabSize": 4
   },
   "editor.lightbulb.enabled": "off",
   "editor.linkedEditing": true,
   "C_Cpp.default.cppStandard": "c++20",
-  "[cpp][c]": {
+  "[cpp][c][powershell]": {
     "editor.defaultFormatter": null,
-    "editor.formatOnSave": false
-  },
-  "[nginx]": {
-    "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf"
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4
   },
   "javascript.suggest.completeFunctionCalls": true,
   "typescript.suggest.completeFunctionCalls": true,
@@ -99,10 +98,15 @@
       "source.organizeImports": "explicit"
     }
   },
+  "[typescript][svelte][javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.sortImports": "explicit"
+    }
+  },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "workbench.colorTheme": "poimandres-noitalics",
+  "workbench.colorTheme": "poimandres-noitalics-storm",
   "editor.detectIndentation": false,
   "window.newWindowDimensions": "maximized",
   "git.openRepositoryInParentFolders": "always",
@@ -115,5 +119,14 @@
   "powershell.integratedConsole.showOnStartup": false,
   "powershell.promptToUpdatePowerShell": false,
   "typescript.preferences.importModuleSpecifierEnding": "js",
-  "javascript.preferences.importModuleSpecifierEnding": "js"
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "scm.defaultViewMode": "tree",
+  "window.zoomLevel": 0.4,
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "**/node_modules/bits-ui/**",
+    "**/node_modules/@types/node/console.d.ts",
+    "**/node_modules/@types/node/util.d.ts"
+  ],
+  "editor.stickyScroll.enabled": false
+  // "editor.suggest.preview": true
 }

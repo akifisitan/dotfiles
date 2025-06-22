@@ -1,29 +1,53 @@
-# Dot source in profile with notepad $profile
-# . path\to\pwsh-profile.ps1
-
-# Inject environment variables
+# Environment variables
 $env:PYTHONDONTWRITEBYTECODE="1"
 
-# Alias
+# Aliases
+Remove-Alias sp -Force
+Remove-Alias gc -Force
+
 Set-Alias -Name c -Value Clear-Host
 Set-Alias -Name npp -Value "C:\Program Files\Notepad++\notepad++.exe"
 Set-Alias -Name pn -Value pnpm
+Set-Alias -Name sp -Value Start-Process -Force
 
-# Functions
-function Prompt {
-    $location = Get-Location
-    if ($location.Path -eq "C:\") {
-      $lastDir = "/"
-    } elseif ($location.Path -eq "$HOME") {
-      $lastDir = "~" # good enough for now
-    } else {
-      $lastDir = Split-Path $location -Leaf
-    }
-    $Host.UI.RawUI.WindowTitle = $lastDir
-    "➜  $($lastDir) "
+# terminal
+function open { Start-Process . }
+
+function th { wt -d . }
+
+function mklink ($target, $link) { New-Item -Path $target -ItemType SymbolicLink -Value $link }
+
+# ts / js
+function npr { npm run @args }
+
+function pnx { pnpm dlx @args }
+
+# python
+function venv { venv/Scripts/activate }
+
+function .venv { .venv/Scripts/activate }
+
+# git
+function ga { git add @args }
+
+function gs { git status @args }
+
+function gr { git reset @args }
+
+function gn { git checkout -b @args }
+
+function gu { git pull @args }
+
+function gp { git push @args }
+
+function gcl {
+    git restore . # Discard changes to tracked files
+    git clean -fd # Remove untracked files and directories
 }
 
-function co {
+
+# git branch tab autocomplete
+function gc {
     param(
         [Parameter(Mandatory)]
         [ValidateNotNullOrEmpty()]
@@ -53,33 +77,20 @@ function co {
         })]
         [string] $branch
     )
-    git checkout $branch;
+
+    git checkout $branch 
 }
 
-function npr {
-  & npm run $args
+# Prompt
+function Prompt {
+    $location = Get-Location
+    if ($location.Path -eq "C:\") {
+      $lastDir = "/"
+    } elseif ($location.Path -eq "$HOME") {
+      $lastDir = "~" # good enough for now
+    } else {
+      $lastDir = Split-Path $location -Leaf
+    }
+    $Host.UI.RawUI.WindowTitle = $lastDir
+    "➜  $($lastDir) "
 }
-
-function pnx {
-  & pnpm dlx $args
-}
-
-function venv {
-	& venv/Scripts/activate
-}
-
-function .venv {
-	& .venv/Scripts/activate
-}
-
-function open {
-	& start .
-}
-
-function th {
-	& wt -d .
-}
-
-
-
-
