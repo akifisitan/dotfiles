@@ -7,6 +7,7 @@ Remove-Alias gc -Force
 
 Set-Alias -Name c -Value Clear-Host
 Set-Alias -Name npp -Value "C:\Program Files\Notepad++\notepad++.exe"
+Set-Alias -Name openzip -Value "C:\Program Files\7-Zip\7zFM.exe"
 Set-Alias -Name pn -Value pnpm
 Set-Alias -Name sp -Value Start-Process -Force
 
