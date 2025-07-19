@@ -67,7 +67,7 @@
   "playwright.reuseBrowser": true,
   "explorer.confirmPasteNative": false,
   "[csharp]": {
-    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.defaultFormatter": "csharpier.csharpier-vscode",
     "editor.tabSize": 4
   },
   "editor.lightbulb.enabled": "off",
@@ -121,7 +121,7 @@
   "typescript.preferences.importModuleSpecifierEnding": "js",
   "javascript.preferences.importModuleSpecifierEnding": "js",
   "scm.defaultViewMode": "tree",
-  "window.zoomLevel": 0.4,
+  "window.zoomLevel": 0.2,
   "typescript.preferences.autoImportFileExcludePatterns": [
     "**/node_modules/bits-ui/**",
     "**/node_modules/@types/node/console.d.ts",
