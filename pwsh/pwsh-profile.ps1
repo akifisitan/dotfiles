@@ -1,16 +1,6 @@
 # Environment variables
 $env:PYTHONDONTWRITEBYTECODE="1"
 
-# Aliases
-Remove-Alias sp -Force
-Remove-Alias gc -Force
-
-Set-Alias -Name c -Value Clear-Host
-Set-Alias -Name npp -Value "C:\Program Files\Notepad++\notepad++.exe"
-Set-Alias -Name openzip -Value "C:\Program Files\7-Zip\7zFM.exe"
-Set-Alias -Name pn -Value pnpm
-Set-Alias -Name sp -Value Start-Process -Force
-
 # terminal
 function open { Start-Process . }
 
@@ -46,6 +36,9 @@ function gcl {
     git clean -fd # Remove untracked files and directories
 }
 
+function gci {
+    git checkout $(git branch --format='%(refname:short)' | fzf --height 50% --layout reverse)
+}
 
 # git branch tab autocomplete
 function gc {
@@ -95,3 +88,20 @@ function Prompt {
     $Host.UI.RawUI.WindowTitle = $lastDir
     "➜  $($lastDir) "
 }
+
+# z oxide
+Invoke-Expression (& { (zoxide init powershell | Out-String) })
+
+# Aliases
+Set-Alias -Name cd -Value z -Option AllScope -Scope Global -Force
+Set-Alias -Name cdi -Value zi -Option AllScope -Scope Global -Force
+
+Remove-Alias sp -Force
+Remove-Alias gc -Force
+Remove-Alias gci -Force
+
+Set-Alias -Name c -Value Clear-Host
+Set-Alias -Name npp -Value "C:\Program Files\Notepad++\notepad++.exe"
+Set-Alias -Name openzip -Value "C:\Program Files\7-Zip\7zFM.exe"
+Set-Alias -Name pn -Value pnpm
+Set-Alias -Name sp -Value Start-Process -Force
