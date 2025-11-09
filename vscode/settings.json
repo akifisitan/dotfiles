@@ -106,7 +106,7 @@
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "workbench.colorTheme": "poimandres-noitalics-storm",
+  "workbench.colorTheme": "poimandres-noitalics",
   "editor.detectIndentation": false,
   "window.newWindowDimensions": "maximized",
   "git.openRepositoryInParentFolders": "always",
