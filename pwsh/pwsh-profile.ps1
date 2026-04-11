@@ -1,7 +1,14 @@
 # Environment variables
 $env:PYTHONDONTWRITEBYTECODE="1"
 
+# Remove conflicting aliases
+Remove-Alias gc -Force
+Remove-Alias gci -Force
+
 # terminal
+Set-Alias -Name c -Value Clear-Host
+Set-Alias -Name npp -Value "C:\Program Files\Notepad++\notepad++.exe"
+
 function open { Start-Process . }
 
 function th { wt -d . }
@@ -9,6 +16,8 @@ function th { wt -d . }
 function mklink ($target, $link) { New-Item -Path $target -ItemType SymbolicLink -Value $link }
 
 # ts / js
+Set-Alias -Name pn -Value pnpm
+
 function npr { npm run @args }
 
 function pnx { pnpm dlx @args }
@@ -91,17 +100,10 @@ function Prompt {
 
 # z oxide
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
-
-# Aliases
 Set-Alias -Name cd -Value z -Option AllScope -Scope Global -Force
 Set-Alias -Name cdi -Value zi -Option AllScope -Scope Global -Force
 
-Remove-Alias sp -Force
-Remove-Alias gc -Force
-Remove-Alias gci -Force
+# Opencode
+Set-Alias -Name oc -Value "C:\Users\user\AppData\Local\OpenCode\opencode-cli.exe"
 
-Set-Alias -Name c -Value Clear-Host
-Set-Alias -Name npp -Value "C:\Program Files\Notepad++\notepad++.exe"
-Set-Alias -Name openzip -Value "C:\Program Files\7-Zip\7zFM.exe"
-Set-Alias -Name pn -Value pnpm
-Set-Alias -Name sp -Value Start-Process -Force
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8

@@ -15,7 +15,7 @@
     "editorBracketHighlight.foreground3": "#fda4af",
     "editorBracketHighlight.foreground4": "#38bdf8",
     "editorBracketHighlight.foreground5": "#818cf8",
-    "editorBracketHighlight.foreground6": "#fda4af"
+    "editorBracketHighlight.foreground6": "#fda4af",
   },
   "explorer.compactFolders": false,
   "workbench.editor.labelFormat": "short",
@@ -45,30 +45,30 @@
         {
           "scope": "entity.name.tag",
           "settings": {
-            "foreground": "#2dc494"
-          }
-        }
-      ]
-    }
+            "foreground": "#2dc494",
+          },
+        },
+      ],
+    },
   },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[dockercompose]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker",
   },
   "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
+    "editor.defaultFormatter": "svelte.svelte-vscode",
   },
   "svelte.enable-ts-plugin": true,
   "svelte.plugin.svelte.defaultScriptLanguage": "ts",
   "files.associations": {
-    "*.css": "postcss"
+    "*.css": "postcss",
   },
   "playwright.reuseBrowser": true,
   "explorer.confirmPasteNative": false,
-  "[csharp]": {
+  "[csharp][xml][xaml]": {
     "editor.defaultFormatter": "csharpier.csharpier-vscode",
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
   },
   "editor.lightbulb.enabled": "off",
   "editor.linkedEditing": true,
@@ -76,7 +76,7 @@
   "[cpp][c][powershell]": {
     "editor.defaultFormatter": null,
     "editor.formatOnSave": false,
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
   },
   "javascript.suggest.completeFunctionCalls": true,
   "typescript.suggest.completeFunctionCalls": true,
@@ -95,16 +95,16 @@
     "editor.indentSize": 4,
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
-    }
+      "source.organizeImports": "explicit",
+    },
   },
   "[typescript][svelte][javascript]": {
     "editor.codeActionsOnSave": {
-      "source.sortImports": "explicit"
-    }
+      "source.sortImports": "explicit",
+    },
   },
   "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker",
   },
   "workbench.colorTheme": "poimandres-noitalics",
   "editor.detectIndentation": false,
@@ -112,7 +112,7 @@
   "git.openRepositoryInParentFolders": "always",
   "chat.commandCenter.enabled": false,
   "[powershell]": {
-    "editor.defaultFormatter": "ms-vscode.powershell"
+    "editor.defaultFormatter": "ms-vscode.powershell",
   },
   "powershell.codeFormatting.useCorrectCasing": true,
   "powershell.codeFormatting.useConstantStrings": true,
@@ -125,8 +125,29 @@
   "typescript.preferences.autoImportFileExcludePatterns": [
     "**/node_modules/bits-ui/**",
     "**/node_modules/@types/node/console.d.ts",
-    "**/node_modules/@types/node/util.d.ts"
+    "**/node_modules/@types/node/util.d.ts",
   ],
-  "editor.stickyScroll.enabled": false
-  // "editor.suggest.preview": true
+  "editor.stickyScroll.enabled": false,
+  "remote.SSH.remotePlatform": {
+    "192.168.168.137": "linux",
+  },
+  "redhat.telemetry.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "terminal.integrated.initialHint": false,
+  "csharpier.enableDiagnostics": false,
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default",
+  },
+  "json.schemaDownload.trustedDomains": {
+    "https://aka.ms": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://models.dev": true,
+    "https://opencode.ai": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://www.schemastore.org/": true,
+  },
 }
