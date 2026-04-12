@@ -150,4 +150,7 @@
     "https://schemastore.azurewebsites.net/": true,
     "https://www.schemastore.org/": true,
   },
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
 }

@@ -1,12 +1,5 @@
+/* Visual Studio Settings File */
 {
-  "languages.dockerfile.general.wordWrapVisualGlyphs": false,
-  "languages.fSharpInteractive.general.wordWrapVisualGlyphs": false,
-  "languages.memory.general.wordWrapVisualGlyphs": false,
-  "languages.register.general.wordWrapVisualGlyphs": false,
-  "languages.typeScript.general.wordWrapVisualGlyphs": false,
-  "languages.vbScript.general.wordWrapVisualGlyphs": false,
-  "languages.xml.general.wordWrapVisualGlyphs": false,
-  "languages.defaults.general.wordWrapVisualGlyphs": true,
   "debugging.general.warnIfNoUserCodeOnLaunch": false,
   "debugging.symbols.location.cachePath": "C:\\Users\\user\\AppData\\Local\\Temp\\SymbolCache",
   "environment.visualExperience.colorTheme": "dark-plus",
@@ -20,7 +13,6 @@
   "languages.xml.scrollbars.verticalScrollBarMode": "bar",
   "languages.xml.scrollbars.sourceOverviewWidth": "off",
   "languages.xml.general.lineNumbers": true,
-  "languages.csharp.scrollbars.verticalScrollBarMode": "bar",
   "projectsAndSolutions.general.trackActiveItem": true,
   "environment.visualExperience.effects.hardwareAcceleration": "auto",
   "textEditor.codeCleanup.profile": "none",
@@ -34,5 +26,6 @@
   "textEditor.codeLens.cppIncludeDataCodeLensCompilerTimeDataPointProvider": false,
   "textEditor.codeLens.cppIncludeDataCodeLensReferencesDataPointProvider": false,
   "textEditor.codeLens.cppReferencesCodeLensDataPointProvider": false,
-  "environment.tabs.documentTabs.multiRowTabs": true
+  "environment.tabs.documentTabs.multiRowTabs": true,
+  "languages.editorConfig.general.wordWrapVisualGlyphs": true
 }

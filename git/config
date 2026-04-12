@@ -10,7 +10,7 @@
 	defaultBranch = main
 
 [core]
-	autocrlf = true # auto convert from lf to crlf on windows
+	autocrlf = false
 	fsync = none # prevent fsync call
 	fscache = true
 	symlinks = true
@@ -51,3 +51,4 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+
