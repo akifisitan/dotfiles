@@ -1,5 +1,10 @@
+# Run once
+# [Environment]::SetEnvironmentVariable("POWERSHELL_TELEMETRY_OPTOUT", "1", "User")
+# [Environment]::SetEnvironmentVariable("POWERSHELL_UPDATECHECK", "Off", "User")
+
 # Environment variables
 $env:PYTHONDONTWRITEBYTECODE="1"
+# $env:OPENCODE_CONFIG="C:\users\user\projects\dotfiles\opencode\opencode.json"
 
 # Remove conflicting aliases
 Remove-Alias gc -Force
@@ -19,25 +24,17 @@ function mklink ($target, $link) { New-Item -Path $target -ItemType SymbolicLink
 Set-Alias -Name pn -Value pnpm
 
 function npr { npm run @args }
-
 function pnx { pnpm dlx @args }
 
 # python
 function venv { venv/Scripts/activate }
-
 function .venv { .venv/Scripts/activate }
 
 # git
 function ga { git add @args }
-
 function gs { git status @args }
-
-function gr { git reset @args }
-
 function gn { git checkout -b @args }
-
 function gu { git pull @args }
-
 function gp { git push @args }
 
 function gcl {

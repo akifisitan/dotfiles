@@ -8,6 +8,13 @@
         "input": "\u001b\r"
       },
       "id": "User.sendInput.8F63D3A9"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[13;3u"
+      },
+      "id": "User.sendInput.237E8A98"
     }
   ],
   "alwaysShowNotificationIcon": false,
@@ -70,6 +77,10 @@
     {
       "id": "User.sendInput.8F63D3A9",
       "keys": "shift+enter"
+    },
+    {
+      "id": "User.sendInput.237E8A98",
+      "keys": "alt+enter"
     }
   ],
   "newTabMenu": [
@@ -81,7 +92,7 @@
   "profiles": {
     "defaults": {
       "font": {
-        "face": "Cascadia Mono",
+        "face": "Cascadia Mono NF",
         "size": 11
       }
     },

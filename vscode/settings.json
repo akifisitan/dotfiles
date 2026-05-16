@@ -54,15 +54,7 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[dockercompose]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker",
-  },
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode",
-  },
-  "svelte.enable-ts-plugin": true,
-  "svelte.plugin.svelte.defaultScriptLanguage": "ts",
-  "files.associations": {
-    "*.css": "postcss",
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers",
   },
   "playwright.reuseBrowser": true,
   "explorer.confirmPasteNative": false,
@@ -73,13 +65,11 @@
   "editor.lightbulb.enabled": "off",
   "editor.linkedEditing": true,
   "C_Cpp.default.cppStandard": "c++20",
-  "[cpp][c][powershell]": {
+  "[cpp][c]": {
     "editor.defaultFormatter": null,
     "editor.formatOnSave": false,
     "editor.tabSize": 4,
   },
-  "javascript.suggest.completeFunctionCalls": true,
-  "typescript.suggest.completeFunctionCalls": true,
   "python.analysis.autoImportCompletions": true,
   "python.autoComplete.extraPaths": ["${workspaceFolder}/Scripts"],
   "python.analysis.extraPaths": ["${workspaceFolder}/Scripts"],
@@ -98,11 +88,6 @@
       "source.organizeImports": "explicit",
     },
   },
-  "[typescript][svelte][javascript]": {
-    "editor.codeActionsOnSave": {
-      "source.sortImports": "explicit",
-    },
-  },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker",
   },
@@ -110,7 +95,7 @@
   "editor.detectIndentation": false,
   "window.newWindowDimensions": "maximized",
   "git.openRepositoryInParentFolders": "always",
-  "chat.commandCenter.enabled": false,
+  "chat.agent.enabled": false,
   "[powershell]": {
     "editor.defaultFormatter": "ms-vscode.powershell",
   },
@@ -118,15 +103,34 @@
   "powershell.codeFormatting.useConstantStrings": true,
   "powershell.integratedConsole.showOnStartup": false,
   "powershell.promptToUpdatePowerShell": false,
-  "typescript.preferences.importModuleSpecifierEnding": "js",
-  "javascript.preferences.importModuleSpecifierEnding": "js",
-  "scm.defaultViewMode": "tree",
-  "window.zoomLevel": 0.2,
-  "typescript.preferences.autoImportFileExcludePatterns": [
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.showWords": false,
+  "files.associations": {
+    "*.css": "postcss",
+  },
+  "[typescript][svelte][javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.sortImports": "never",
+    },
+  },
+  "js/ts.suggest.completeFunctionCalls": true,
+  "js/ts.preferences.importModuleSpecifierEnding": "js",
+  "js/ts.preferences.autoImportFileExcludePatterns": [
     "**/node_modules/bits-ui/**",
     "**/node_modules/@types/node/console.d.ts",
     "**/node_modules/@types/node/util.d.ts",
   ],
+  // "js/ts.preferences.autoImportSpecifierExcludeRegexes": [
+  //   "^lodash/.*$",
+  //   "^node:",
+  // ],
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode",
+  },
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+  "scm.defaultViewMode": "tree",
+  "window.zoomLevel": 0.2,
   "editor.stickyScroll.enabled": false,
   "remote.SSH.remotePlatform": {
     "192.168.168.137": "linux",
@@ -134,6 +138,7 @@
   "redhat.telemetry.enabled": false,
   "extensions.ignoreRecommendations": true,
   "terminal.integrated.initialHint": false,
+  "terminal.integrated.hideOnStartup": "whenEmpty",
   "csharpier.enableDiagnostics": false,
   "workbench.editorAssociations": {
     "git-rebase-todo": "default",
@@ -148,9 +153,10 @@
     "https://raw.githubusercontent.com/devcontainers/spec/": true,
     "https://raw.githubusercontent.com/microsoft/vscode/": true,
     "https://schemastore.azurewebsites.net/": true,
+    "https://shadcn-svelte.com": true,
+    "https://svelte.dev": true,
+    "https://turbo.build/schema.json": true,
     "https://www.schemastore.org/": true,
   },
-  "security.allowedUNCHosts": [
-    "wsl.localhost"
-  ],
+  "security.allowedUNCHosts": ["wsl.localhost"],
 }
