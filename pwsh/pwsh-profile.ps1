@@ -4,7 +4,8 @@
 
 # Environment variables
 $env:PYTHONDONTWRITEBYTECODE="1"
-# $env:OPENCODE_CONFIG="C:\users\user\projects\dotfiles\opencode\opencode.json"
+$env:OPENCODE_CONFIG="%userprofile%\projects\dotfiles\opencode\opencode.json"
+$env:EDITOR="code --wait"
 
 # Remove conflicting aliases
 Remove-Alias gc -Force
