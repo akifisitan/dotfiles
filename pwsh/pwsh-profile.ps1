@@ -101,6 +101,6 @@ Set-Alias -Name cd -Value z -Option AllScope -Scope Global -Force
 Set-Alias -Name cdi -Value zi -Option AllScope -Scope Global -Force
 
 # Opencode
-Set-Alias -Name oc -Value "C:\Users\user\AppData\Local\OpenCode\opencode-cli.exe"
+Set-Alias -Name ocd -Value "opencode"
 
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
