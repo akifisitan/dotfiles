@@ -159,4 +159,6 @@
     "https://www.schemastore.org/": true,
   },
   "security.allowedUNCHosts": ["wsl.localhost"],
+  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false,
 }
