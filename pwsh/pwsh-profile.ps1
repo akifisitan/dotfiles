@@ -4,7 +4,7 @@
 
 # Environment variables
 $env:PYTHONDONTWRITEBYTECODE="1"
-$env:OPENCODE_CONFIG="%userprofile%\projects\dotfiles\opencode\opencode.json"
+# $env:OPENCODE_CONFIG="%userprofile%\projects\dotfiles\opencode\opencode.json"
 $env:EDITOR="code --wait"
 
 # Remove conflicting aliases
@@ -26,6 +26,11 @@ Set-Alias -Name pn -Value pnpm
 
 function npr { npm run @args }
 function pnx { pnpm dlx @args }
+
+# dotnet
+# function dn { dotnet @args }
+# function dnr { dotnet run @args }
+# function dnrf { dotnet run --no-launch-profile --no-build -- @args }
 
 # python
 function venv { venv/Scripts/activate }
@@ -95,6 +100,8 @@ function Prompt {
     $Host.UI.RawUI.WindowTitle = $lastDir
     "➜  $($lastDir) "
 }
+
+(&mise activate pwsh) | Out-String | Invoke-Expression
 
 # z oxide
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
