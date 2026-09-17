@@ -1,5 +1,5 @@
-$configPath = "C:\Users\user\AppData\Roaming\Code\User\settings.json"
-$targetPath = "C:\Users\user\projects\dotfiles\vscode\settings.json"
+$configPath = "$env:APPDATA\Code\User\settings.json"
+$targetPath = "$PSScriptRoot\settings.json"
 
 Write-Host "Removing $configPath before symlinking"
 Remove-Item -Path $configPath -Force -ErrorAction SilentlyContinue

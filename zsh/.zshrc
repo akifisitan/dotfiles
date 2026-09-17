@@ -76,7 +76,7 @@ autoload -Uz add-zsh-hook
 add-zsh-hook precmd set_win_title
 
 # mise
-eval "$(~/.local/bin/mise activate zsh)"
+eval "$(mise activate zsh)"
 
 # zoxide
 alias cd="z"

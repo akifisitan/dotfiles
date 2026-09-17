@@ -93,7 +93,7 @@ function gc {
 # Prompt
 function Prompt {
     $location = Get-Location
-    if ($location.Path -eq "C:\") {
+    if ($location.Path -eq $location.Drive.Root) {
       $lastDir = "/"
     } elseif ($location.Path -eq "$HOME") {
       $lastDir = "~" # good enough for now
