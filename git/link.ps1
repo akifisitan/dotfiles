@@ -1,5 +1,5 @@
-$configPath = "C:\Users\user\.gitconfig"
-$targetPath = "C:\Users\user\projects\dotfiles\git\config"
+$configPath = "$HOME\.gitconfig"
+$targetPath = "$HOME\projects\dotfiles\git\config"
 
 Write-Host "Removing $configPath before symlinking"
 Remove-Item -Path $configPath -Force -ErrorAction SilentlyContinue

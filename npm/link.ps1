@@ -1,5 +1,5 @@
-$configPath = "C:\Users\user\.npmrc"
-$targetPath = "C:\Users\user\projects\dotfiles\npm\.npmrc"
+$configPath = "$HOME\.npmrc"
+$targetPath = "$HOME\projects\dotfiles\npm\.npmrc"
 
 Write-Host "Removing $configPath before symlinking"
 Remove-Item -Path $configPath -Force -ErrorAction SilentlyContinue

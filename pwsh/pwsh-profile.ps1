@@ -4,7 +4,7 @@
 
 # Environment variables
 $env:PYTHONDONTWRITEBYTECODE="1"
-# $env:OPENCODE_CONFIG="%userprofile%\projects\dotfiles\opencode\opencode.json"
+$env:OPENCODE_CONFIG_DIR="$HOME\projects\dotfiles\opencode"
 $env:EDITOR="code --wait"
 
 # Remove conflicting aliases
