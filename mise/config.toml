@@ -1,0 +1,10 @@
+[tools]
+fzf = "latest"
+gh = "latest"
+"github:BurntSushi/ripgrep" = "latest"
+"github:ajeetdsouza/zoxide" = "latest"
+"github:anomalyco/opencode" = "latest"
+"github:bjarneo/cliamp" = "latest"
+"github:sharkdp/fd" = "latest"
+node = "latest"
+pnpm = "latest"
