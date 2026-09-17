@@ -1,6 +1,7 @@
 # Run once
 # [Environment]::SetEnvironmentVariable("POWERSHELL_TELEMETRY_OPTOUT", "1", "User")
 # [Environment]::SetEnvironmentVariable("POWERSHELL_UPDATECHECK", "Off", "User")
+# [Environment]::SetEnvironmentVariable("DOTNET_CLI_TELEMETRY_OPTOUT", "1", "User")
 
 # Environment variables
 $env:PYTHONDONTWRITEBYTECODE="1"
@@ -20,6 +21,8 @@ function open { Start-Process . }
 function th { wt -d . }
 
 function mklink ($target, $link) { New-Item -Path $target -ItemType SymbolicLink -Value $link }
+
+function refresh { pwsh -nologo; exit; }
 
 # ts / js
 Set-Alias -Name pn -Value pnpm
