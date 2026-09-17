@@ -1,6 +1,12 @@
 export PATH="./:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
+# Keep VS Code available when WSL does not import Windows PATH.
+case ":$PATH:" in
+  *":/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:"*) ;;
+  *) export PATH="$PATH:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin" ;;
+esac
+
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR="vim"
