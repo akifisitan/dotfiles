@@ -1,5 +1,5 @@
 $configPath = "$HOME\.config\mise\config.toml"
-$targetPath = "$HOME\projects\dotfiles\mise\config.toml"
+$targetPath = "$PSScriptRoot\config.toml"
 
 Write-Host "Removing $configPath before symlinking"
 Remove-Item -Path $configPath -Force -ErrorAction SilentlyContinue

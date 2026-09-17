@@ -1,5 +1,5 @@
 $configPath = "$HOME\.npmrc"
-$targetPath = "$HOME\projects\dotfiles\npm\.npmrc"
+$targetPath = "$PSScriptRoot\.npmrc"
 
 Write-Host "Removing $configPath before symlinking"
 Remove-Item -Path $configPath -Force -ErrorAction SilentlyContinue

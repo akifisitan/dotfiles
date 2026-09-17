@@ -1,5 +1,5 @@
 $configPath = "$HOME\.config\git\template"
-$targetPath = "$HOME\projects\dotfiles\git\template"
+$targetPath = "$PSScriptRoot\template"
 
 Write-Host "Removing $configPath before symlinking"
 Remove-Item -Path $configPath -Force -ErrorAction SilentlyContinue

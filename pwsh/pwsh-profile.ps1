@@ -5,8 +5,8 @@
 
 # Environment variables
 $env:PYTHONDONTWRITEBYTECODE="1"
-$env:OPENCODE_CONFIG_DIR="$HOME\projects\dotfiles\opencode"
 $env:EDITOR="code --wait"
+$env:OPENCODE_CONFIG_DIR="$HOME\projects\dotfiles\opencode"
 
 # Remove conflicting aliases
 Remove-Alias gc -Force

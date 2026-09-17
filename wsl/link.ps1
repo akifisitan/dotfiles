@@ -1,5 +1,5 @@
 $configPath = "$HOME\.wslconfig"
-$targetPath = "$HOME\projects\dotfiles\wsl\.wslconfig"
+$targetPath = "$PSScriptRoot\.wslconfig"
 
 Write-Host "Removing $configPath before symlinking"
 Remove-Item -Path $configPath -Force -ErrorAction SilentlyContinue
