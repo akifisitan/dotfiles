@@ -25,3 +25,5 @@ You carry this conversation's bias. Write a neutral brief, start a fresh agent, 
    - Ensure your instructions do not reward reaching an expected answer or encourage the agent to seek context that reveals prior preferences or conclusions unless that context is required for the decision.
 5. Return the response unchanged, even when it contradicts you or the user.
    - Check the verdict for unsupported assumptions. If one drives the answer, correct the neutral brief and rerun with a fresh agent.
+
+---
