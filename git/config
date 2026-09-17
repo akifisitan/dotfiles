@@ -4,24 +4,24 @@
 
 [commit]
   template = ~/.config/git/template
-  verbose = true  # add more context to commit messages
+  verbose = true
 
 [init]
   defaultBranch = main
 
 [core]
   autocrlf = false
-  fsync = none # prevent fsync call
+  fsync = none
   fscache = true
   symlinks = true
   editor = "code --wait"
-  preloadindex = true  # preload index for faster status
+  preloadindex = true
   pager = delta
   longPaths = true
 
 [push]
-  autoSetupRemote = true  # easier to push new branches
-  default = current  # push only current branch by default
+  autoSetupRemote = true
+  default = current
 
 [pull]
   rebase = true
@@ -31,15 +31,15 @@
   missingCommitsCheck = warn  # warn if rebasing with missing commits
 
 [pack]
-  threads = 0  # use all available threads
-  windowMemory = 1g  # use 1g of memory for pack window
-  packSizeLimit = 1g  # max size of a packfile
+  threads = 0
+  windowMemory = 1g
+  packSizeLimit = 1g
 
 [status]
   branch = true
   # short = true
   showStash = true
-  showUntrackedFiles = all  # show individual untracked files
+  showUntrackedFiles = all
 
 [branch]
   sort = -committerdate
