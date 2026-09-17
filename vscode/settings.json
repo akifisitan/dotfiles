@@ -134,7 +134,8 @@
   "window.zoomLevel": 0.2,
   "editor.stickyScroll.enabled": false,
   "remote.SSH.remotePlatform": {
-    "192.168.168.137": "linux"
+    "192.168.168.137": "linux",
+    "vps.takil.ing": "linux"
   },
   "redhat.telemetry.enabled": false,
   "extensions.ignoreRecommendations": true,

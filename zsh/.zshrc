@@ -79,5 +79,4 @@ eval "$(zoxide init zsh)"
 
 # starship
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
-export STARSHIP_CACHE=~/.starship/cache
 eval "$(starship init zsh)"
