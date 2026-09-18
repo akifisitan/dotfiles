@@ -3,4 +3,10 @@
   "lsp": false,
   "formatter": false,
   "shell": "pwsh",
+  "permission": {
+    "skill": "allow",
+    "external_directory": {
+      "~/projects/dotfiles/opencode/**": "allow",
+    },
+  },
 }

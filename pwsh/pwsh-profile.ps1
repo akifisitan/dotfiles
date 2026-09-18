@@ -114,4 +114,7 @@ Set-Alias -Name cdi -Value zi -Option AllScope -Scope Global -Force
 # Opencode
 Set-Alias -Name ocd -Value "opencode"
 
+# Github Desktop
+Set-Alias -Name ghb -Value "github"
+
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
