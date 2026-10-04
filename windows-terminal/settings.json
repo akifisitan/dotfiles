@@ -27,20 +27,20 @@
   "initialPosition": ",",
   "keybindings": [
     {
-      "id": "Terminal.NextTab",
-      "keys": "alt+right"
-    },
-    {
-      "id": "Terminal.PasteFromClipboard",
-      "keys": "ctrl+v"
+      "id": null,
+      "keys": "alt+up"
     },
     {
       "id": "Terminal.FindText",
       "keys": "ctrl+shift+f"
     },
     {
-      "id": null,
-      "keys": "alt+up"
+      "id": "Terminal.PasteFromClipboard",
+      "keys": "ctrl+v"
+    },
+    {
+      "id": "Terminal.NextTab",
+      "keys": "alt+right"
     },
     {
       "id": null,
