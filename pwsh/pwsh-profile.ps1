@@ -13,6 +13,7 @@ Remove-Alias gc -Force
 Remove-Alias gci -Force
 
 # terminal
+$PSStyle.FileInfo.Directory = $PSStyle.Foreground.Blue
 Set-Alias -Name c -Value Clear-Host
 Set-Alias -Name npp -Value "C:\Program Files\Notepad++\notepad++.exe"
 
