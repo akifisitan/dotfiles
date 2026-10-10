@@ -107,6 +107,7 @@
   "editor.suggest.showWords": false,
   "files.associations": {
     "*.css": "postcss",
+    "*.globalconfig": "ini",
   },
   "[typescript][svelte][javascript]": {
     "editor.codeActionsOnSave": {
