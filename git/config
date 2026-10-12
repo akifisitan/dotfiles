@@ -16,7 +16,6 @@
   symlinks = true
   editor = "code --wait"
   preloadindex = true
-  pager = delta
   longPaths = true
 
 [push]
