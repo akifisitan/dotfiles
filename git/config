@@ -1,10 +1,18 @@
 [user]
   name = akifisitan
   email = 102677971+akifisitan@users.noreply.github.com
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGGx+LYGrZ1DbgRjW9BHtM0Bfn2ksxaCRpmUxQi75L14
 
 [commit]
   template = ~/.config/git/template
   verbose = true
+  gpgsign = true
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "op-ssh-sign"
 
 [init]
   defaultBranch = main
