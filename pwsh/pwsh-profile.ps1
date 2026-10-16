@@ -7,6 +7,7 @@
 $env:PYTHONDONTWRITEBYTECODE="1"
 $env:EDITOR="code --wait"
 $env:OPENCODE_CONFIG_DIR="$HOME\projects\dotfiles\opencode"
+$env:OPENCODE_CLI_CONFIG_CONTENT=Get-Content -Raw "$env:OPENCODE_CONFIG_DIR\cli.json"
 
 # Remove conflicting aliases
 Remove-Alias gc -Force

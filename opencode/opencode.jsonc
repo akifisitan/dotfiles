@@ -2,10 +2,4 @@
   "$schema": "https://opencode.ai/config.json",
   "lsp": false,
   "formatter": false,
-  "permission": {
-    "skill": "allow",
-    "external_directory": {
-      "~/projects/dotfiles/opencode/**": "allow",
-    },
-  },
 }

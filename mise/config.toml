@@ -3,10 +3,10 @@ fzf = "0.74.4"
 gh = "2.102.0"
 "github:BurntSushi/ripgrep" = "15.2.0"
 "github:ajeetdsouza/zoxide" = "0.10.0"
-"github:anomalyco/opencode" = "1.19.0"
 "github:bjarneo/cliamp" = "2.3.0"
 "github:sharkdp/fd" = "10.5.0"
 node = "26.11.1"
+opencode = { version = "2.0.31", allow_builds = ["@opencode/cli"] }
 pnpm = "12.11.2"
 
 [settings]
