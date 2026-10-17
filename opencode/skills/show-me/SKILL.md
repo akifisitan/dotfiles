@@ -1,5 +1,7 @@
 ---
-description: Help the user understand the current topic visually with concise diagrams, code-shape sketches, and focused HTML artifacts
+name: show-me
+description: Help the user understand the current topic visually with concise diagrams, code-shape sketches, and focused HTML artifacts.
+disable-model-invocation: true
 ---
 
 Help the user understand the current topic of conversation visually. Skip the preamble and keep prose brief. Pick the smallest view that makes the key point clear.
@@ -124,5 +126,3 @@ Bash(open path/to/show-me-{description}.html)
 Place each visual next to the short text it supports. Keep only the calls, files, props, states, and boundaries needed to answer the user's current question or the options to resolve the current discussion point.
 
 You may use one of these, you may use several, it is unlikely you will use all of them. Use your judgement and don't overwhelm the user.
-
----
