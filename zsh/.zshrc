@@ -50,7 +50,6 @@ esac
 alias ocd="opencode"
 
 export OPENCODE_CONFIG_DIR="/mnt/c/Users/user/projects/dotfiles/opencode"
-export OPENCODE_CLI_CONFIG_CONTENT="$(cat "$OPENCODE_CONFIG_DIR/cli.json")"
 
 # Zsh tab completion
 autoload -Uz compinit
