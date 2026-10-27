@@ -1,11 +1,11 @@
 [tools]
 fzf = "0.74.5"
-gh = "2.103.2"
+gh = "2.103.3"
 rg = "15.2.0"
 zoxide = "0.10.0"
 fd = "10.5.0"
 node = "26.12.1"
-opencode = { version = "2.1.4", allow_builds = ["@opencode/cli"] }
+opencode = { version = "2.2.0", allow_builds = ["@opencode/cli"] }
 pnpm = "12.15.0"
 "github:bjarneo/cliamp" = "2.3.0"
 
