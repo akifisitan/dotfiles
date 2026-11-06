@@ -6,8 +6,8 @@ zoxide = "0.10.0"
 fd = "10.5.1"
 node = "26.13.0"
 opencode = { version = "2.2.5", allow_builds = ["@opencode/cli"] }
-pnpm = "12.16.1"
-"github:bjarneo/cliamp" = "2.3.0"
+pnpm = "12.18.0"
+"github:bjarneo/cliamp" = "2.4.0"
 
 [settings]
 pin = true
@@ -15,6 +15,3 @@ pin = true
 [settings.upgrade]
 auto_prune = true
 prune_after = "1h"
-
-[settings.self_update]
-auto = true
